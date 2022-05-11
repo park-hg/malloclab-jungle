@@ -41,7 +41,7 @@ team_t team = {
 /* single word (4) or double word (8) alignment */
 #define WSIZE sizeof(void *)
 #define DSIZE (2*WSIZE)
-#define CHUNKSIZE (1<<9)
+#define CHUNKSIZE (1<<12)
 
 #define MAX(x, y) ((x) > (y) ? (x) : (y))
 
